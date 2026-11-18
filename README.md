@@ -1,8 +1,9 @@
 # SAND Shape-Aware Descriptor
 
-SAND compresses a molecule's three-dimensional shape into 512 numbers without generating a single conformer. Winter and colleagues at Pfizer trained a GINE graph neural network with a rank-preserving contrastive objective, so cosine similarity between the L2-normalised embeddings tracks ROCS shape overlap with a correlation of 0.86. That makes shape-based screening tractable across libraries of billions of compounds. Ersilia serves the uncompressed embedding rather than the quantised search index, and the vector approximates rather than computes the underlying geometry.
+SAND compresses a molecules three-dimensional shape into 512 numbers without generating a single conformer. Winter and colleagues at Pfizer trained a GINE graph neural network with a rank-preserving contrastive objective, so cosine similarity between the L2-normalised embeddings tracks ROCS shape overlap with a correlation of 0.86. That makes shape-based screening tractable across libraries of billions of compounds. Ersilia serves the uncompressed embedding rather than the quantised search index, and the vector approximates rather than computes the underlying geometry.
 
-This model was incorporated on 2026-08-03.Last packaged on 2026-08-03.
+This model was incorporated on 2026-08-03.
+Last packaged on 2026-08-03.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 512 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5mnx](https://hub.docker.com/r/ersiliaos/eos5mnx)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5mnx.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5mnx.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos5mnx_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos5mnx_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `321`
